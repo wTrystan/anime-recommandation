@@ -1,9 +1,9 @@
 ,rating,rating
 ,size,mean
 name,,
-&quot;Bungaku Shoujo&quot; Kyou no Oyatsu: Hatsukoi,108,6.148148148148148
-&quot;Bungaku Shoujo&quot; Memoire,109,6.467889908256881
-&quot;Bungaku Shoujo&quot; Movie,260,6.930769230769231
+&quot Bungaku Shoujo&quot Kyou no Oyatsu: Hatsukoi,108,6.148148148148148
+&quotBungaku Shoujo&quot Memoire,109,6.467889908256881
+&quotBungaku Shoujo&quot Movie,260,6.930769230769231
 .hack//G.U. Returner,134,6.149253731343284
 .hack//G.U. Trilogy,220,6.4363636363636365
 .hack//Gift,190,5.9
@@ -69,7 +69,7 @@ Amnesia,1769,6.144714527981911
 Amnesia OVA,205,5.390243902439025
 Ange Vierge,13,5.615384615384615
 Angel Beats!,12634,8.105192338135192
-Angel&#039;s Feather,304,5.009868421052632
+Angel&#039s Feather,304,5.009868421052632
 Anitore! EX,40,5.525
 Anne Happyâª,55,6.618181818181818
 Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.,6924,8.271374927787406
@@ -97,7 +97,7 @@ Aquarion Evol,292,7.085616438356165
 Arakawa Under the Bridge,1268,7.340694006309148
 Arakawa Under the Bridge x Bridge,585,7.2615384615384615
 Arata Kangatari,136,6.588235294117647
-Arata naru Sekai: World&#039;s/Start/Load/End,78,5.384615384615385
+Arata naru Sekai: World&#039s/Start/Load/End,78,5.384615384615385
 Arcana Famiglia: Capriccio - stile Arcana Famiglia,65,6.630769230769231
 Area no Kishi,130,7.2384615384615385
 Argento Soma,48,6.416666666666667
@@ -113,8 +113,8 @@ Asatte no Houkou.,113,6.238938053097345
 Ashita no Joe,20,8.7
 Ashita no Nadja,106,7.509433962264151
 Asura,110,6.972727272727273
-Asura Cryin&#039;,538,6.741635687732342
-Asura Cryin&#039; 2,359,6.977715877437326
+Asura Cryin&#039,538,6.741635687732342
+Asura Cryin&#039 2,359,6.977715877437326
 Aura: Maryuuin Kouga Saigo no Tatakai,94,7.127659574468085
 Ayakashi,163,6.423312883435583
 Ayakashi: Japanese Classic Horror,295,7.145762711864407
@@ -178,12 +178,12 @@ Black Cat,1601,7.198001249219238
 Black Jack,17,8.294117647058824
 Black Jack (TV),44,7.840909090909091
 Black Lagoon,4324,7.756244218316374
-Black Lagoon: Roberta&#039;s Blood Trail,1019,7.552502453385673
+Black Lagoon: Roberta&#039s Blood Trail,1019,7.552502453385673
 Black Lagoon: The Second Barrage,3072,7.921223958333333
 BlackâRock Shooter (OVA),2805,6.622103386809269
 BlackâRock Shooter (TV),2663,6.7882087870822385
 Blade,69,6.173913043478261
-Blade &amp; Soul,352,5.84375
+Blade &amp Soul,352,5.84375
 Blade of the Immortal,253,6.818181818181818
 Blassreiter,274,6.897810218978102
 BlazBlue: Alter Memory,188,5.9787234042553195
@@ -204,7 +204,7 @@ Blue Gender,422,6.6350710900473935
 Bobobo-bo Bo-bobo,265,6.9245283018867925
 Boku dake ga Inai Machi,2939,8.058863559033686
 Boku no Hero Academia,1467,7.294478527607362
-Boku no Imouto wa &quot;Osaka Okan&quot;,58,5.310344827586207
+Boku no Imouto wa &quotOsaka Okan&quot,58,5.310344827586207
 Boku wa Imouto ni Koi wo Suru,546,5.855311355311355
 Boku wa Tomodachi ga Sukunai Episode 0,939,5.7699680511182105
 Boku wa Tomodachi ga Sukunai: Relay Shousetsu wa Ketsumatsu ga Hanpanai,685,6.2437956204379566
@@ -254,8 +254,8 @@ Cencoroll,580,6.51551724137931
 Chaos Dragon: Sekiryuu Seneki,120,5.725
 Charlotte,2139,7.4628330995792425
 Cheer Danshi!!,29,6.206896551724138
-Chi&#039;s Sweet Home,311,7.434083601286174
-Chi&#039;s Sweet Home: Atarashii Ouchi,99,7.212121212121212
+Chi&#039s Sweet Home,311,7.434083601286174
+Chi&#039s Sweet Home: Atarashii Ouchi,99,7.212121212121212
 Chicchana Yukitsukai Sugar,145,6.620689655172414
 Chihayafuru,989,7.846309403437816
 Chihayafuru 2,562,8.053380782918149
@@ -382,9 +382,9 @@ Digimon Xros Wars,122,7.508196721311475
 Dimension W,398,7.015075376884422
 Divine Gate,127,5.881889763779528
 Dog Days,719,6.863699582753825
-Dog Days&#039;,359,6.933147632311978
-Dog Days&#039;&#039;,98,6.36734693877551
-Dogs: Bullets &amp; Carnage,646,6.930340557275541
+Dog Days&#039,359,6.933147632311978
+Dog Days&#039&#039,98,6.36734693877551
+Dogs: Bullets &amp Carnage,646,6.930340557275541
 Donten ni Warau,241,7.261410788381743
 Doraemon (1979),3,8.0
 Doujin Work,257,6.700389105058366
@@ -434,7 +434,7 @@ Endride,9,7.0
 Erementar Gerad,571,7.145359019264449
 Ergo Proxy,2788,7.854375896700144
 Escaflowne,571,6.663747810858144
-Escha &amp; Logy no Atelier: Tasogare no Sora no Renkinjutsushi,105,6.504761904761905
+Escha &amp Logy no Atelier: Tasogare no Sora no Renkinjutsushi,105,6.504761904761905
 Etotama,128,6.4296875
 Eureka Seven,2227,7.977099236641221
 Eureka Seven AO,248,6.745967741935484
@@ -557,8 +557,8 @@ Giniro no Kami no Agito,683,6.900439238653002
 Gintama,954,8.684486373165619
 Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare,418,8.385167464114833
 Gintama Movie: Shinyaku Benizakura-hen,373,7.745308310991957
-Gintama&#039;,626,8.642172523961662
-Gintama&#039;: Enchousen,334,8.263473053892216
+Gintama&#039,626,8.642172523961662
+Gintama&#039: Enchousen,334,8.263473053892216
 GintamaÂ°,139,8.510791366906474
 GintamaÂ°: Aizome Kaori-hen,5,5.2
 Girlfriend (Kari),64,6.484375
@@ -600,7 +600,7 @@ Gunslinger Stratos: The Animation,139,6.23021582733813
 Gunsmith Cats,201,6.895522388059701
 Gyakkyou Burai Kaiji: Hakairoku-hen,372,7.900537634408602
 Gyakkyou Burai Kaiji: Ultimate Survivor,721,7.9639389736477115
-"Gyakuten Saiban: Sono &quot;Shinjitsu&quot;, Igi Ari!",69,6.188405797101449
+"Gyakuten Saiban: Sono &quotShinjitsu&quot, Igi Ari!",69,6.188405797101449
 Gyo,293,5.037542662116041
 Hachimitsu to Clover,1103,7.799637352674524
 Hachimitsu to Clover II,731,7.998632010943912
@@ -923,8 +923,8 @@ Kyou kara Maou! R,137,6.751824817518248
 "Kyou, Koi wo Hajimemasu",298,5.5369127516778525
 Kyougoku Natsuhiko: Kousetsu Hyaku Monogatari,95,6.610526315789474
 Kyoukai no Kanata,3727,7.348001073249262
-Kyoukai no Kanata Movie: I&#039;ll Be Here - Kako-hen,261,6.888888888888889
-Kyoukai no Kanata Movie: I&#039;ll Be Here - Mirai-hen,309,7.750809061488673
+Kyoukai no Kanata Movie: I&#039ll Be Here - Kako-hen,261,6.888888888888889
+Kyoukai no Kanata Movie: I&#039ll Be Here - Mirai-hen,309,7.750809061488673
 Kyoukai no Rinne (TV),63,7.698412698412699
 Kyoukai no Rinne (TV) 2nd Season,14,8.357142857142858
 Kyoukaisenjou no Horizon,414,7.053140096618358
@@ -934,11 +934,11 @@ Kyoushirou to Towa no Sora,240,6.4
 Kyousou Giga (TV),186,7.634408602150538
 Kyuuketsuhime Miyu (TV),149,7.174496644295302
 Lamune,229,6.77292576419214
-Lance N&#039; Masques,57,5.701754385964913
+Lance N&#039 Masques,57,5.701754385964913
 Last Exile,1090,7.6669724770642205
 Last Exile: Ginyoku no Fam,102,6.852941176470588
 Layton Kyouju to Eien no Utahime,184,6.141304347826087
-Le Chevalier D&#039;Eon,181,7.828729281767956
+Le Chevalier D&#039Eon,181,7.828729281767956
 Level E,327,7.0703363914373085
 Little Busters!,771,7.560311284046692
 Little Busters!: Refrain,480,8.25
@@ -959,7 +959,7 @@ Love Stage!!,1187,6.625947767481045
 Love Stage!! OVA,318,6.3742138364779874
 Loveless,2034,6.818092428711898
 LovelyâComplex,3813,7.827694728560189
-Luck &amp; Logic,73,6.2465753424657535
+Luck &amp Logic,73,6.2465753424657535
 LuckyâStar,4820,7.547302904564315
 LuckyâStar: Original na Visual to Animation,1793,7.185722253206916
 Lupin III,242,7.115702479338843
@@ -988,10 +988,10 @@ Mahoraba: Heartful days,130,7.223076923076923
 Mahou Senshi Louie,87,6.816091954022989
 Mahou Sensou,615,5.827642276422765
 Mahou Shoujo Lyrical Nanoha,576,7.229166666666667
-Mahou Shoujo Lyrical Nanoha A&#039;s,460,7.8
+Mahou Shoujo Lyrical Nanoha A&#039s,460,7.8
 Mahou Shoujo Lyrical Nanoha StrikerS,307,7.511400651465798
 Mahou Shoujo Lyrical Nanoha: The Movie 1st,157,7.681528662420382
-Mahou Shoujo Lyrical Nanoha: The Movie 2nd A&#039;s,55,7.3090909090909095
+Mahou Shoujo Lyrical Nanoha: The Movie 2nd A&#039s,55,7.3090909090909095
 Mahou Shoujo MadokaâMagica,7343,8.096690725861365
 Mahou Shoujo MadokaâMagica Movie 1: Hajimari no Monogatari,996,7.183734939759036
 Mahou Shoujo MadokaâMagica Movie 2: Eien no Monogatari,909,7.394939493949395
@@ -1086,7 +1086,7 @@ Mobile Suit Gundam Wing,1238,7.465266558966074
 Mobile Suit Gundam Wing: Endless Waltz,425,7.023529411764706
 Mobile Suit Gundam Wing: Endless Waltz Movie,600,7.28
 Mobile Suit Gundam ZZ,99,5.97979797979798
-Mobile Suit Gundam: Char&#039;s Counterattack,214,7.401869158878505
+Mobile Suit Gundam: Char&#039s Counterattack,214,7.401869158878505
 Mobile Suit Gundam: Iron-Blooded Orphans,144,7.465277777777778
 Mobile Suit Gundam: The 08th MS Team,399,7.87468671679198
 Mobile Suit Zeta Gundam,207,7.63768115942029
@@ -1117,7 +1117,7 @@ Mushishi Zoku Shou 2nd Season,278,8.10431654676259
 Mushishi Zoku Shou: Suzu no Shizuku,105,7.628571428571429
 Mutsu Enmei Ryuu Gaiden: Shura no Toki,58,6.379310344827586
 Muv-Luv Alternative: Total Eclipse,262,6.958015267175573
-Myself; Yourself,1684,7.048693586698337
+Myself Yourself,1684,7.048693586698337
 MÃR,80,6.975
 NHK ni Youkoso!,3497,8.090363168430082
 Nabari no Ou,900,7.387777777777778
@@ -1155,7 +1155,7 @@ Neko no Ongaeshi,2234,7.101611459265891
 Nekojiru-sou,650,6.781538461538462
 Nekomonogatari: Kuro,1854,7.266990291262136
 Neon Genesis Evangelion,7566,7.898096748612213
-Neon Genesis Evangelion: Death &amp; Rebirth,2031,6.522402757262432
+Neon Genesis Evangelion: Death &amp Rebirth,2031,6.522402757262432
 Neon Genesis Evangelion: The End of Evangelion,4137,7.7055837563451774
 Nerawareta Gakuen,274,6.912408759124087
 New Game!,305,7.160655737704918
@@ -1272,7 +1272,7 @@ Peace Maker Kurogane,329,7.091185410334346
 Peach Girl,935,6.634224598930481
 Perfect Blue,1766,7.590033975084938
 Persona 3 the Movie 1: Spring of Birth,392,7.033163265306122
-Persona 3 the Movie 2: Midsummer Knight&#039;s Dream,180,6.905555555555556
+Persona 3 the Movie 2: Midsummer Knight&#039s Dream,180,6.905555555555556
 Persona 3 the Movie 3: Falling Down,54,6.314814814814815
 Persona 3 the Movie 4: Winter of Rebirth,21,8.428571428571429
 Persona 4 the Animation,1165,7.219742489270386
@@ -1301,14 +1301,14 @@ Pokemon Best Wishes! Season 2: Episode N,54,6.111111111111111
 Pokemon Best Wishes! Season 2: Kyurem vs. Seikenshi,118,5.372881355932203
 Pokemon Best Wishes!: Victini to Kuroki Eiyuu Zekrom,150,5.493333333333333
 Pokemon Best Wishes!: Victini to Shiroki Eiyuu Reshiram,131,5.442748091603053
-Pokemon Diamond &amp; Pearl,300,6.043333333333333
-Pokemon Diamond &amp; Pearl: Arceus Choukoku no Jikuu e,366,5.617486338797814
-Pokemon Diamond &amp; Pearl: Dialga vs. Palkia vs. Darkrai,559,5.7763864042933815
-Pokemon Diamond &amp; Pearl: Genei no Hasha Zoroark,277,5.833935018050542
-Pokemon Diamond &amp; Pearl: Giratina to Sora no Hanataba Sheimi,449,5.4699331848552335
+Pokemon Diamond &amp Pearl,300,6.043333333333333
+Pokemon Diamond &amp Pearl: Arceus Choukoku no Jikuu e,366,5.617486338797814
+Pokemon Diamond &amp Pearl: Dialga vs. Palkia vs. Darkrai,559,5.7763864042933815
+Pokemon Diamond &amp Pearl: Genei no Hasha Zoroark,277,5.833935018050542
+Pokemon Diamond &amp Pearl: Giratina to Sora no Hanataba Sheimi,449,5.4699331848552335
 Pokemon Housoukyoku,149,5.630872483221476
 Pokemon XY,48,7.0
-Pokemon XY&amp;Z,12,8.666666666666666
+Pokemon XY&ampZ,12,8.666666666666666
 Pokemon: Celebi Toki wo Koeta Deai,1065,5.554929577464788
 Pokemon: Kesshoutou no Teiou Entei,1528,5.774869109947644
 Pokemon: Maboroshi no Pokemon Lugia Bakutan,1726,6.079953650057938
@@ -1365,7 +1365,7 @@ RideBack,260,7.073076923076923
 Rinne no Lagrange,166,6.530120481927711
 Rinne no Lagrange Season 2,65,7.092307692307692
 Ristorante Paradiso,88,6.863636363636363
-Robotics;Notes,558,7.077060931899641
+RoboticsNotes,558,7.077060931899641
 Rockman.EXE,139,6.258992805755396
 Rokka no Yuusha,1261,7.015067406819984
 RollingâGirls,149,6.046979865771812
@@ -1522,7 +1522,7 @@ Shugo Chara!! Doki,984,6.961382113821138
 Sidonia no Kishi,828,7.342995169082125
 Sidonia no Kishi: Daikyuu Wakusei Seneki,324,7.287037037037037
 Simoun,123,7.211382113821138
-Sketchbook: Full Color&#039;s,86,6.965116279069767
+Sketchbook: Full Color&#039s,86,6.965116279069767
 Skip Beat!,2183,7.66147503435639
 Skull Man,75,6.586666666666667
 Sky Girls,92,6.673913043478261
@@ -1564,8 +1564,8 @@ Spriggan,192,6.213541666666667
 Star Driver: Kagayaki no Takuto,321,6.872274143302181
 Starmyu,70,6.0285714285714285
 Steamboy,753,6.907038512616202
-Steins;Gate,7837,8.87546254944494
-Steins;Gate Movie: Fuka Ryouiki no DÃ©jÃ  vu,2077,8.01299951853635
+SteinsGate,7837,8.87546254944494
+SteinsGate Movie: Fuka Ryouiki no DÃ©jÃ  vu,2077,8.01299951853635
 Stella Jogakuin Koutou-ka CÂ³-bu,173,6.69364161849711
 Strait Jacket,224,6.125
 Strange+,70,5.9714285714285715
@@ -1600,7 +1600,7 @@ Takanashi Rikka Kai: Chuunibyou demo Koi ga Shitai! Movie,262,6.297709923664122
 Tales of Phantasia The Animation,167,6.62874251497006
 Tales of Symphonia The Animation: Sekai Tougou-hen,61,6.901639344262295
 Tales of Symphonia The Animation: Sylvarant-hen,369,6.769647696476965
-Tales of Symphonia The Animation: Tethe&#039;alla-hen,123,7.016260162601626
+Tales of Symphonia The Animation: Tethe&#039alla-hen,123,7.016260162601626
 Tales of Vesperia: The First Strike,260,7.376923076923077
 Tales of Zestiria the X,159,6.591194968553459
 Tales of the Abyss,527,7.407969639468691
@@ -1656,9 +1656,9 @@ The iDOLM@STER,436,7.126146788990826
 The iDOLM@STER Cinderella Girls,125,6.264
 The iDOLM@STER Cinderella Girls 2nd Season,57,7.526315789473684
 Thermae Romae,68,6.529411764705882
-Tiger &amp; Bunny,757,7.751651254953765
-Tiger &amp; Bunny Movie 1: The Beginning,92,6.0978260869565215
-Tiger &amp; Bunny Movie 2: The Rising,53,7.169811320754717
+Tiger &amp Bunny,757,7.751651254953765
+Tiger &amp Bunny Movie 1: The Beginning,92,6.0978260869565215
+Tiger &amp Bunny Movie 2: The Rising,53,7.169811320754717
 Tight-rope,314,5.936305732484076
 Toaru Hikuushi e no Koiuta,221,7.0542986425339365
 Toaru Hikuushi e no Tsuioku,172,7.436046511627907
@@ -1675,8 +1675,8 @@ Tokkou,350,6.117142857142857
 Tokyo ESP,402,6.181592039800995
 Tokyo Ghoul,7801,7.488270734521215
 Tokyo Ghoul âA,4517,7.017932255922072
-Tokyo Ghoul: &quot;Jack&quot;,454,6.572687224669603
-Tokyo Ghoul: &quot;Pinto&quot;,292,6.561643835616438
+Tokyo Ghoul: &quotJack&quot,454,6.572687224669603
+Tokyo Ghoul: &quotPinto&quot,292,6.561643835616438
 Tokyo Godfathers,1297,7.720894371626831
 Tokyo Magnitude 8.0,956,7.800209205020921
 Tokyo Majin Gakuen Kenpucho: Tou,309,7.02588996763754
@@ -1770,13 +1770,13 @@ Witch Craft Works OVA,42,5.9523809523809526
 Witch Hunter Robin,684,7.081871345029239
 Witchblade,612,6.977124183006536
 Wizard Barristers: Benmashi Cecil,111,5.954954954954955
-Wolf&#039;s Rain,2200,7.584545454545455
-Wolf&#039;s Rain OVA,556,7.503597122302159
+Wolf&#039s Rain,2200,7.584545454545455
+Wolf&#039s Rain OVA,556,7.503597122302159
 Wolverine,82,5.853658536585366
 Wonderful Days,404,6.7004950495049505
 Working!!,1704,7.096244131455399
 Working!!!,302,7.208609271523179
-Working&#039;!!,942,7.219745222929936
+Working&#039!!,942,7.219745222929936
 World Destruction: Sekai Bokumetsu no Rokunin,267,6.730337078651686
 World Trigger,67,7.417910447761194
 X,546,7.305860805860806
@@ -1824,7 +1824,7 @@ YuuâYuuâHakusho: Meikai Shitou-hen - Honoo no Kizuna,168,6.64880952380
 Yuyushiki,314,6.942675159235669
 YuâGiâOh!,1261,6.051546391752577
 YuâGiâOh! (1999),328,5.8689024390243905
-YuâGiâOh! 5D&#039;s,239,6.96652719665272
+YuâGiâOh! 5D&#039s,239,6.96652719665272
 YuâGiâOh! Duel Monsters,1300,6.776923076923077
 YuâGiâOh! Zexal,86,6.0813953488372094
 YuâGiâOh!: Duel Monsters GX,533,6.697936210131332
