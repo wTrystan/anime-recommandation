@@ -7,7 +7,6 @@ animeList = pd.read_csv('https://raw.githubusercontent.com/wTrystan/anime-recomm
 popularMovies = pd.read_csv('https://raw.githubusercontent.com/wTrystan/anime-recommandation/refs/heads/main/popularMovies.csv',sep=',')
 movieStats = pd.read_csv('https://raw.githubusercontent.com/wTrystan/anime-recommandation/refs/heads/main/movieStats.csv',sep=',')
 mappedColumnsMoviestat = pd.read_csv('https://raw.githubusercontent.com/wTrystan/anime-recommandation/refs/heads/main/mappedColumnsMoviestat.csv',sep=',')
-#mappedColumnsMoviestat = pd.DataFrame(mappedColumnsMoviestat)
 mappedColumnsMoviestat = mappedColumnsMoviestat.set_index('name')
 movieRatings1 = pd.read_csv('https://raw.githubusercontent.com/wTrystan/anime-recommandation/refs/heads/main/movieRatings1.csv',sep=',')
 movieRatings2 = pd.read_csv('https://raw.githubusercontent.com/wTrystan/anime-recommandation/refs/heads/main/movieRatings2.csv',sep=',')
@@ -27,6 +26,8 @@ if 'show_similarity_list' not in st.session_state:
 if 'show_similarity_user' not in st.session_state:
     st.session_state['show_similarity_user'] = False
 
+if 'selected_anime' not in st.session_state:
+    st.session_state['selected_anime'] = None
 
 col1, col2, col3 = st.columns(3)
 
@@ -74,9 +75,14 @@ def SimilarityFromList(list):
     st.dataframe(newTable)
 
 def SimilarityUser(listeUser):
-    myRatings = pd.DataFrame.from_dict(listeUser, orient="index").sort_values(by=0, ascending=False)
+    myRatings = pd.DataFrame.from_dict(listeUser, orient="index").sort_values(by=0)
     simCandidates = pd.Series()
-    for i in range(0, len(myRatings.index)-1):
+    st.dataframe(myRatings)
+    length = len(myRatings.index)-1
+
+    for i in range(0,length):
+        st.write(i)
+        st.write(myRatings.index[i])
         # Retrieve similar movies to this one that I rated
         sims = corrMatrix[myRatings.index[i]].dropna()
         # Now scale its similarity by how well I rated this movie
@@ -84,42 +90,49 @@ def SimilarityUser(listeUser):
         # Add the score to the list of similarity candidates
         simCandidates = pd.concat([simCandidates, sims])
     
+    #st.dataframe(simCandidates)
     simCandidates.sort_values(inplace = True, ascending = False)
     simCandidates = simCandidates.groupby(simCandidates.index).sum()
     simCandidates.sort_values(inplace = True, ascending = False)
-    filteredSims = simCandidates.drop(myRatings.index)
-    st.dataframe(filteredSims)
+    
+    #filteredSims = simCandidates.drop(myRatings.index)
+    #st.dataframe(filteredSims)
 
 # Affichage du menu pour le choix de l'anime
 if st.session_state['show_similarity_anime']:
-    selection1 = st.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None)
-    # Création du bouton d'action
-    if st.button('Find the best animes for me :'):
-        st.dataframe(SimilarityWith(selection1)[1:10])
+    with st.form(key='form_similarity_anime'):
+        selection1 = st.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None)
+        submit = st.form_submit_button('Run')
+        if submit:
+            st.dataframe(SimilarityWith(selection1)[1:10])
 
 
 # Affichage du menu pour le choix de la liste d'anime
 if st.session_state['show_similarity_list']:
-    selection_list1 = st.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None, key='anime1')
-    selection_list2 = st.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None, key='anime2')
-    selection_list3 = st.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None, key='anime3')
-    # Création du bouton d'action
-    if st.button('Find the best animes for me :'):
-        liste = [selection_list1,selection_list2,selection_list3]
-        SimilarityFromList(liste)
+    with st.form(key='form_similarity_list'):
+        selection_list1 = st.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None, key='anime1')
+        selection_list2 = st.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None, key='anime2')
+        selection_list3 = st.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None, key='anime3')
+        # Création du bouton d'action
+        submit = st.form_submit_button('Run')
+        if submit:
+            liste = [selection_list1,selection_list2,selection_list3]
+            SimilarityFromList(liste)
 
 
 # # Affichage du menu pour le choix selon les users
 if st.session_state['show_similarity_user']:
     # Création de deux colonnes
-    col_anime, col_ratings = st.columns(2)
+    with st.form(key='form_similarity_list'):
+        col_anime, col_ratings = st.columns(2)
 
-    selection_list1 = col_anime.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None, key='anime1')
-    ratings_1 = col_ratings.number_input('Entrez un nombre:',min_value=-1, max_value=10, key='ratings_1',step=1,value=None)
-    selection_list2 = col_anime.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None, key='anime2')
-    ratings_2 = col_ratings.number_input('Entrez un nombre:',min_value=-1, max_value=10, key='ratings_2',step=1,value=None)
+        selection_user1 = col_anime.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None, key='anime_1')
+        ratings_1 = col_ratings.number_input('Entrez un nombre:',min_value=-1, max_value=10, key='ratings_1',step=1,value=None)
+        selection_user2 = col_anime.selectbox('Choose an anime:', unique_anime_ids,placeholder="Choose an option",index=None, key='anime_2')
+        ratings_2 = col_ratings.number_input('Entrez un nombre:',min_value=-1, max_value=10, key='ratings_2',step=1,value=None)
 
-    # Création du bouton d'action
-    if st.button('Find the best animes for me :'):
-        listeUser = {selection_list1: ratings_1, selection_list2: ratings_2}
-        SimilarityFromList(listeUser)
+        # Création du bouton d'action
+        submit = st.form_submit_button('Run')
+        if submit:
+            listeUser = {selection_user1: ratings_1, selection_user2: ratings_2}
+            SimilarityUser(listeUser)
